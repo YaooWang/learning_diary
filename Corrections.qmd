@@ -10,11 +10,21 @@ Due to the spatial, spectral, temporal and radiometric resolution limitations of
 
 In the processing and analysis of remote sensing imagery, raw remote sensing data often contain such severe geometric distortions that they are difficult to integrate with other data. Each EO image acquisition system produces unique geometric distortions in its original images, so that the geometry of these images in their own local coordinate system does not correspond to other images, terrain and the user's particular map projection. The sources of distortion can be divided into two main categories: the observer, the acquisition system, and the observed. In addition to these distortions, distortions associated with map projections need to be considered [@toutin2011].
 
+![Source: State of the art of geometric correction of remote sensing data: a data fusion perspective](image/15.png){width="500"}
+
 Pre-processing is the initial and most basic image operation, correcting image distortions that occur during the image data acquisition process and restoring image quality. The elimination of geometric distortion is called geometric correction and the elimination of radiation distortion is called radiometric correction. In practice, atmospheric correction and topographic correction are usually carried out. The diagram below is an example of a geometric correction, the operations of which require geometrical mathematics and elevation information for better geolocation [@toutin2011].
 
 ![Image rectification to project the uncorrected image into the ground reference system: the geometric(Left) and radiometric(right) operations](image/05.jpg){width="500"}
 
 Observations of tropical rainforest vegetation dynamics using satellite-based remote sensing data are presented in a paper. There is some uncertainty in the data due to atmospheric corrections and cloud cover. In their study they used the Moderate Resolution Imaging Spectroradiometer (MODIS) and derived composites (MYDO9A1, MCD43A4 and MYD13A2 - vegetation indices) on board the Aqua satellite with results obtained from the Atmospheric Multi Angle Implementation for Correction (MAIAC) algorithm to assess these uncertainties. MAIAC employs a new cloud screening technique, as well as a new aerosol retrieval and atmospheric correction procedure based on time series and spatial analysis. Their results show a considerable improvement in surface reflectance and a 10-fold reduction in image noise levels using the MAlAC treatment[@hilker2012].
+
+![Source: Remote sensing of tropical ecosystems: Atmospheric correction and cloud masking matter](image/16.png){width="500"}
+
+Monthly observations of NDVI from MYD09GA (1 km daily surface reflectance), MYD09A1 (8 day composites),MYD13A2 (16 day vegetation index product) and MAIAC obtained over a 50 × 50 km area as indicated in the map. The er rorbars represent the mean spatial variability over the 50 × 50fkm subset (Please note that the points and errorbars of the products are slightly offset from each other for purposes of readability).
+
+![Source: Remote sensing of tropical ecosystems: Atmosph eric correction and cloud masking matter](image/17.png){width="400"}
+
+Comparison of MYD09/MYD35 and MAIAC cloud mask. (A) False color infrared image acquired over the study area on July 16, 2002. (B) MYD09/MYD35 derived cloud mask overlaid on top of the same image (C)MAIAC derived c loud mask.
 
 For image mosaics, when our study area exceeds the coverage of a single remote sensing image, it is often necessary to stitch together two or more images to form a larger image or series of images that cover the whole area, and this is the process of image mosaics.
 
