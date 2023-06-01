@@ -2,14 +2,21 @@ project:
   type: book
 
 book:
-  title: "learning_diary"
-  author: "Jane Doe"
-  date: "2023/6/1"
+  title: "LearningDiary"
+  author: "Yao Wang"
+  date: "2023/1/30"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - Summary.qmd
+    - Getting started with remote sensing.qmd
+    - Corrections.qmd
+    - Policy.qmd
+    - GoogleEarthEngine.qmd
+    - Classification1.qmd
+    - Classification2.qmd
+    - Temperature.qmd
     - references.qmd
+    
 
 bibliography: references.bib
 

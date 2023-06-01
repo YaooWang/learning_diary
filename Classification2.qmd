@@ -1,0 +1,21 @@
+# ClassificationⅡ
+
+## Summary
+
+In this week we continued our study of remote sensing image classification and accuracy analysis. This chapter is very extensive and difficult to understand. The classification section covers both image element based classification and object oriented classification. The verification of the correct classification of remote sensing images is also part of the quantitative analysis of remote sensing images. It is generally not possible to test each image element against the whole classification result, but rather to estimate the classification error using some reference sampling data.
+
+![](14.jpg){width="600"}
+
+## Application
+
+Image element-based classification takes into account the intensity information of the image element's waveband spectral features (Chen et al., 2009). However, spatial structural relationships and contextual semantic information features are ignored.
+
+Object-oriented remote sensing image classification, the smallest unit of processing is no longer an image element, but an image object composed of multiple adjacent image elements containing more semantic information, and the geometric information of the object is used more in the classification than just the spectral information of a single object (Blaschke, 2010).
+
+In related research, Geographical Object Based Image Analysis (GEOBIA) refers to a class of digital remote sensing image analysis methods that study geographical entities or phenomena by depicting and analysing image objects rather than individual pixels. Image objects are usually represented by clusters of similar neighbouring pixels that share a common reference or meaning. A unique feature of GEOBIA, compared to traditional pixel-by-pixel modelling methods, is that image objects (usually from segmentation) - rather than individual pixels - become the basic unit of analysis because they represent "meaningful" geographical entities or phenomena at multiple scales (Chen et al., 2018).
+
+![Source:Geographic object-based image analysis (GEOBIA): emerging trends and future opportunities](10.jpg){width="600"}
+
+## Personal reflection
+
+The content and accuracy analysis of remote sensing image classification involves a very wide range of content and concepts. In this I have realized that different analysis methods should be adopted when dealing with different data and usage scenarios. When analysing remotely sensed data, there are different definitions of accuracy of classification in different contexts.

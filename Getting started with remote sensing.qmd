@@ -1,0 +1,27 @@
+# Getting Started with Remote Sensing
+
+## Summary
+
+In this week, we begin to explore the area of remote sensing data and related analysis methods. In this I learned the basics of loading sentinel and landsat data. Knowing the difference between active and passive romote sensing and how the electromagnetic waves interact with Earth's surface and atmosphere. And be familiar with four resolutions of remotely sensed data. QGIS, SNAP and R are also used in practical for preliminary analysis of remote sensing data such as resampling, cropping, correction etc[@butcher_tour_2016].
+
+![](03.jpg){width="600"}
+
+## Application
+
+Remote sensing is achieved by detecting the ground target, acquiring information about the target, and then processing the information acquired so that it can understand and describe the target, it acquires information through sensors. The sensors collect information from the surface of the ground which is the electromagnetic waves radiated from the surface of any feature and the reflected incident electromagnetic waves.
+
+One application of this is the analysis of remotely sensed imagery through the reflectance of a feature's wave spectrum. The reflectance spectrum of an object is limited to the ultraviolet, visible and infrared bands, especially the latter two. The characteristics of an object's reflectance spectrum depend largely on the choice of wavelength at which the object interacts with the incident radiation. As shown in the figure below, the reflectance spectra of four features - citrus, tomato, maize and cotton - have different shapes[@brady_remote_2021]. The different reflectance of features in different wavelengths makes it easy to think of using multiple wavelengths for feature detection, such as multi-spectral scanners and other sensors for feature spectral analysis and identification, and through the fusion of remote sensing data from multiple sources and false color synthesis, which is becoming an important way of processing remote sensing images. It is also because of the characteristic that different features have different reflectance at different wavelengths that the reflectance curves of objects are widely used in the analysis and evaluation of remote sensing images as a physical basis for interpretation and classification.
+
+![Characteristic curves of reflection spectra of four plants[@__2022-1]](01.jpg){width="350"}
+
+Satellite radar images and ancillary information can also be used in other areas. For example, we can use it to detect flood areas at their peak and evaluates its potential with mapping. The procedure wass tested on the catastrophic flood that occurred in Italy. Two ERS-1 synthetic aperture radar(SAR) images were processed, one acquired one month before the flood and the other acquired three days after the event. Visual interpretation and two different thresholding techniques were performed. The flood map derived shows only a small fraction of the satellite overpass. To overcome this limitation, the authors developed a new method to estimate the flooded area at the peak time by integrating the flooded area from SAR imagery with digital topographic data from GIS technique[@brivio2002].
+
+![Temporal relationships between flood event[@2021uk2021]](02.png){width="400"}
+
+Some recent studies also shown UAV remote sensing techniques have many applications. Like spatial ecology, forest studies and other monitoring applications('Unmanned aerial vehicles for environmental applications',2017). Before the development of UAVs, the majority of spectral datasets was made by satellites and manned aircraft[@aasen_quantitative_2018]. By the rapidly developing technology, many new types of sensors make data quality assurance. For example, this picture shows the process from collect information to make data product[@aasen_quantitative_2018].
+
+## Personal reflection
+
+When I first came across the analysis of remote sensing data, I felt that a wide range of physics, electronics, space science and information science are used in the acquisition of remote sensing data. It is its comprehensive nature that makes it such an interesting discipline, and with the help of remote sensing technology we are able to see the world from a different perspective.
+
+For example, through PCA analysis. We can obtain remote sensing images that highlight the required elements, which helps us to carry out further analysis on a large scale. When doing the practical in this chapter, I always had some minor problems in the process of using snap, such as the failure to recognize the formulae in the next step due to resampling failure, and sometimes computer memory problems in the calculation, which I did not find at the beginning and only solved through many attempts.

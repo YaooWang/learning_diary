@@ -1,7 +1,3 @@
-# Summary
+# Introduction
 
-In summary, this book has no content whatsoever.
-
-```{r}
-1 + 1
-```
+Hi, this is Yao Wang. I am a student of CASA Urban Spatial Science programme. After five years study of Landscape Achitecture. I learned a lot about urban develpoment and environment issues. After my undergraduate study, I chose to study Urban Design in the Bartlett. During this time period, I realized that data analysis is quiet important in urban studies. So I continue my study in this area, hoping to learn data analysis methods in a systematic way.

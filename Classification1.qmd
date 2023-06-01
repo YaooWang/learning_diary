@@ -1,0 +1,20 @@
+# ClassificationⅠ
+
+## Summary 
+
+This week we are learning about the classification of remote sensing images, which can be used for a variety of purposes such as urban sprawl analysis, urban green space analysis, forest fire monitoring and more. The purpose of image classification is to classify each image element in an image into different categories according to certain rules and algorithms based on its spectral brightness, spatial structure characteristics or other information in different bands. Depending on the degree of human involvement in the classification process, image classification can be classified as supervised classification, unsupervised classification and a mixture of both. In practical, we try to use GEE to perform classification operations on remote sensing data.
+
+![](09.jpg){width="600"}
+
+
+## Application
+
+The process of classification processing of remote sensing images is generally: image selection, image pre-processing, extraction of training data, classification, post classification processing and accuracy verification.
+
+There are many applications regarding the classification of remote sensing images. In one paper, the author used support vector machines for classification in remote sensing. This paper reports the results of two experiments in which multi-class SVMs are compared with maximum likelihood (ML) and artificial neural network (ANN) methods in terms of classification accuracy. And the results show that the SVM achieves a higher level of classification accuracy than either the ML or the ANN, then we can use SVM with high-dimensional data and small training datasets(Pal and Mather, 2005).
+
+In another study, the authors used decision tree regression for soft classification of remote sensing data. In recent years, decision tree classification has been widely used to classify land cover from remote sensing data. In this paper, the authors employ a decision tree regression approach to determine class proportions within a pixel so as to produce soft classification from remote sensing data(Xu et al., 2005). 
+
+## Personal reflection
+This week we have been studying the classification of remote sensing imagery, in which there are mainly supervised and unsupervised classifications, which are also widely used in the production of thematic maps. In the course of my studies I felt that there are many ways to classify remote sensing images, but the choice of method should be based on the purpose of the application and the operability of the algorithm.
+

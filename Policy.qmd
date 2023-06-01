@@ -1,0 +1,25 @@
+# Policy
+
+## Summary of the policy and city selected
+
+The city I seleced is Ahmedabad(Gujarat, India). And the related policy is South Asia's First Heat-health Action Plan[@kadhim_advances_2016] and Ahmedabad Heat Action Plan 2016. It is well known and documented that urbanisation can have significant effects on local weather and climate. Of these effects one of the most familiar is the urban heat island, for which the temperatures of the central urban locations are several degrees higher than those of nearby rural areas of simialr
+elevation. As a rapidly growing city in South Asia, it would be worsen in a
+warming city[@noauthor_demystifying_nodate].
+
+As one of the hottest city in India. The city of Ahmedabad is in the largest district in the western Indian state of Gujarat. With a population of 7.2 million and rapid growth in the real estate, automotive, and pharmaceutical sectors, Ahmedabad is among the top ten fastest growing cities in India, and is poised to become one of India's leading metropolises by 2020.
+
+At the time of the 2010 heat wave, the population of Ahmedabad was no better protected than those of other major South Asian cities. HAPs are comprehensive extreme heat early warning systems and prepardness plans. They typically include a range of mitigation and adaptation measures aimed at reducing health impacts in both the short and longer term. Their goal is to improve public awareness, expedite community outreach, facilitate coordincation across sectors, support capacity building for health care professionals, promote adaptation efforts, and reduce heat exposure, illness, and death.
+
+This picture shows the May 2010 temperature and mortality as compared to the averages in May 2009 and 2011. The graph of mortality shows a large rise in daily mortality in 2010 coinciding with the heat wave.
+
+![source:Ahmedabad Heat Action Plan](06.jpg){width="500"}
+
+## Remotely sensed data(contribute to the policy goal)
+
+In a study of urban heat islands in Beijing, the paper attempts to identify urban heat island patches by remote sensing and to investigate their spatial expansion paths. In this study, MODIS surface temperature data products are used and a probabilistic threshold algorithm is introduced to improve the spatial identification accuracy of urban heat island patches. Based on this, an urban heat island expansion index is constructed to decompose the spatial and temporal change process of urban heat island patches into flying terrain, edge type, infill type and shrinkage type patterns. Based on the land use change process, the path analysis of the spatial expansion pattern of urban heat island patches is carried out to accurately identify the sources and trends of the spatial expansion path of urban heat island patches.
+
+This study shows that the area of the diurnal urban heat island patches in Beijing in the summer of 2020 will be 3932km² and 2266km² respectively, accounting for 23.96% and 13.81% of the total area of Beijing. The proportion of diurnal urban heat island patch area increases by 43.40% and 24.44% respectively between 2005 and 2020 in summer. The area of growing urban heat island patches is greater than the area of shrinking urban heat island patches. The edge-type sprawl pattern is the most dominant pattern for growing urban heat island patches. Arable land, urban building land and rural settlements are the main spatial expansion paths for growing urban heat island patches. The results of this study provide a theoretical basis and data support to reveal the formation process of urban thermal environment and its fine management (Jon et al., 2022).
+
+## How it advances current local, national or global approaches
+
+Government departments can use urban heat island data to assist in identifying areas of the city that are more severely affected, and then optimise spatial functions by improving the layout of their edges during urban planning to achieve the realistic need to slow down the intensification and control the expansion of urban heat islands. Temperature data can also be overlaid with other types of data, such as vegetation data and the number of people suffering from diseases, to provide data to identify the causes of urban problems.

@@ -1,9 +1,5 @@
-# Preface {.unnumbered}
+# Introduction {.unnumbered}
 
-This is a Quarto book.
+Hello, this is Yao Wang's learning diary. I come from China. And I finished my undergraduate studies at Xi'an University of Architecture and Technology, major in Landscape Architecture. Then last year I came to UCL and studied MArch Urban Design at the Bartlett. Because I am pretty interested in coding and big scale spacial analysis, I applied second Master's degree in CASA, Urban Spacial Science programme.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-```{r}
-1 + 1
-```
+![](13.jpg){width="300"}

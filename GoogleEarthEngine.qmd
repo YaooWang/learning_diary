@@ -1,0 +1,20 @@
+# Google Earth Engine
+
+## Summary
+
+In this week we learned about the Google Earth Engine, including its set up, basic functions and how to use it to process remote sensing data. The GEE platform combines the powerful computing power provided by Google servers with a large range of cloud computing resources. The platform dataset provides a large and complete set of imagery from Earth observation satellites such as Sentinel, MODIS, Landsat, etc., as well as vegetation, surface temperature and socio-economic datasets. GEE provides both Python and JavaScript versions of the editing interface for rapid, interactive algorithm development using a web-based code editor. It has the very outstanding advantage of having a huge amount of data that can be called up online and a wide range of data sources, without the need to search and download according to different data from different internet sources. What's more, it does not need to occupy the memory of one's own computer and enables online cloud computing.
+
+![](07.jpg){width="500"}
+
+## Application
+
+Google Earth Engine provides a variety of capabilities to perform spatial and spectral operations on a single image or a batch of images. These operations have great potential to be implemented in parallel on a cloud architecture, as shown in the figure below (Amani et al., 2020). .
+
+![Source: Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review](08.jpg){width="500"}
+
+In recent years, GEE has been used in geomorphology, ecology, atmospheric studies, geology, natural hazards, scientific research and other fields (Yang et al., 2019)，It is an important tool for studying global environmental change. In a study of the Chengdu-Chongqing region of China, GEE and machine learning were used to extract impermeable urban surfaces. This article constructs classification features for spectral bands, spectral indices and texture indices based on the GEE cloud platform and Landsat8 imagery, using five machine learning algorithms: minimum distance (MD), categorical regression tree (CART), support vector machine (SVM), random forest (RF) and simple Bayesian (NB) ，extract of impermeable surface information. The results show that the RF algorithm works best and the extraction results are the most consistent with reality, with little difference in accuracy between the CART and SVM algorithms.
+
+## Personal reflection
+
+During this week I have learnt about the power of GEE and its advantages in visualising remotely sensed data, easy access to a wide range of geographical data and a unified coordinate system. And the platform offers the ability to share code between scripts, allowing us to save a lot of time when using it. Compared to traditional imaging tools such as ENVI, Google Earth Engine allows for fast, batch processing of quantitative images. It allows rapid calculation of vegetation indices such as NDVI, for example, and can predict crop-related yields, monitor changes in drought growth, detect global forest changes and much more.
+
